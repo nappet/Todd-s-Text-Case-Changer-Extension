@@ -1,4 +1,4 @@
-# Todd-s-Text-Case-Changer-Extension
+# Todd's Text-Case-Changer-Extension
 A simple text case changer for Chrome or Edge. 
 ## Privacy
 This extension does not collect, transmit, or store personal data.
