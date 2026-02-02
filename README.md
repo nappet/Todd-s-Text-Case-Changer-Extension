@@ -9,6 +9,9 @@ All processing happens locally in the browser.
 - scripting: Required to inject the content script
 - storage: Used only for user preferences
 
+## Chrome Web Store or Edge Add-ons
+This is not avaliable any app store. 
+
 ## How to install
 1. Download and extract latest version to your prefer location
 2. Open [Chrome: ](chrome://extensions/) chrome://extensions/or [Microsoft Edge: ](edge://extensions/)edge://extensions/ and enabled devloper mode
