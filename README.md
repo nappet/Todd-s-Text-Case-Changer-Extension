@@ -10,7 +10,7 @@ All processing happens locally in the browser.
 - storage: Used only for user preferences
 
 ## Chrome Web Store or Edge Add-ons
-This is not avaliable any app store. 
+This is not avaliable on any app/extension store. Extension will not self-update, but will prompt when updates are avaliable. 
 
 ## How to install
 1. Download and extract latest version to your prefer location
