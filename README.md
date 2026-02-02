@@ -11,7 +11,7 @@ All processing happens locally in the browser.
 
 ## How to install
 1. Download and extract latest version to your prefer location
-2. Open Chrome chrome://extensions/ or edge://extensions/ and enabled devloper mode
+2. Open [Chrome: ](chrome://extensions/)chrome://extensions/or [Microsoft Edge: ](edge://extensions/)edge://extensions/ and enabled devloper mode
 3. Select "load unpacked" and select directory of extract extension
 
 ## Optional Add Keyboard Shortcuts
@@ -22,5 +22,5 @@ All processing happens locally in the browser.
 
 ## Extenion Configuration Option
 To add words to ignore during text case changes, use the Ignore list. Seperated each entry with a comma.
-  - Chrome: chrome-extension://ankiebliacekmjnfpjijcfbmeigpnnnl/options.html
-  - Edge: extension://ankiebliacekmjnfpjijcfbmeigpnnnl/options.html
+  - [Chrome](chrome-extension://ankiebliacekmjnfpjijcfbmeigpnnnl/options.html): chrome-extension://ankiebliacekmjnfpjijcfbmeigpnnnl/options.html
+  - [Edge](extension://ankiebliacekmjnfpjijcfbmeigpnnnl/options.html): extension://ankiebliacekmjnfpjijcfbmeigpnnnl/options.html
