@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Text Case Changer (Editable Fields)",
+  "version": "1.1.1",
+  "author": "Todd Nappen - 1stMILE LLC",
+  "description": "Right-click in an input/textarea/contenteditable field to change selected text to Title Case, UPPERCASE, or lowercase. Includes keyboard shortcuts and an ignore list.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "commands": {
+    "to-title-case": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+T",
+        "mac": "Command+Shift+T"
+      },
+      "description": "Convert selected text to Title Case"
+    },
+    "to-upper-case": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U",
+        "mac": "Command+Shift+U"
+      },
+      "description": "Convert selected text to UPPERCASE"
+    },
+    "to-lower-case": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "Convert selected text to lowercase"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Text Case Changer Options</title>
+  <link rel="stylesheet" href="options.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Text Case Changer — Options</h1>
+
+    <section class="card">
+      <h2>Ignore List</h2>
+      <p class="hint">
+        Comma-separated list of words/abbreviations that should <strong>not</strong> change case.
+        Example: <code>LLC, Ltd., LP</code>
+      </p>
+      <textarea id="ignoreList" rows="6" placeholder="LLC, Ltd., LP"></textarea>
+      <div class="row">
+        <button id="save" class="primary">Save</button>
+        <span id="status" class="status" aria-live="polite"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Keyboard Shortcuts</h2>
+      <p class="hint">Chrome manages shortcuts here:</p>
+      <button id="openShortcuts" class="secondary">Open Chrome Keyboard Shortcuts</button>
+    </section>
+
+    <footer class="footer">
+      <span>Author: Todd Nappen - 1stMILE LLC</span>
+    </footer>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
